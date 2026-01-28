@@ -1,0 +1,14 @@
+import 'package:api_bloc_practice/presentation/features/home/home_screen.dart';
+import 'package:flutter/material.dart';
+
+class ApiBlocPractice extends StatelessWidget {
+  const ApiBlocPractice({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: HomeScreen(),
+      debugShowCheckedModeBanner: false,
+    );
+  }
+}
